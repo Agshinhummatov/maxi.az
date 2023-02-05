@@ -19,6 +19,10 @@ nav {
 
 }
 
+body {
+    background-color: #fafafa;
+}
+
 
 
 
@@ -295,9 +299,13 @@ nav {
 .card-pro {
     width: 275px;
     // height: 275px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
     padding: 1rem;
-    background-color: aquamarine;
+
+
+
+
 
     .icon-products {
         display: flex;
@@ -417,10 +425,11 @@ nav {
 
     .text-about {
         padding-top: 20px;
+        padding-bottom: 5px;
 
         a {
 
-            color: white;
+            color: #3d3f42;
             text-decoration: none;
 
         }
@@ -451,7 +460,7 @@ nav {
         padding-top: 30px;
 
 
-        b{
+        b {
             font-size: 22px;
             padding-top: 25px;
 
@@ -462,22 +471,72 @@ nav {
     }
 
 
-    ._icon-basket{
-        
+    ._icon-basket {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
         display: flex;
         justify-content: right;
         width: 50px;
         height: 50px;
         background-color: white;
         border-radius: 50%;
+        margin-left: 11rem;
 
-        a{
+        a {
             color: red;
-            i{
-                padding: 16px;
+
+            i {
+                padding: 15px;
+                font-size: 20px;
+
             }
         }
-        
+
+
+
+    }
+
+
+
+    .product-price-taksit {
+
+
+        i {
+            font-size: 15px;
+            color: red;
+            cursor: pointer;
+        }
+
+        a {
+
+
+
+            text-decoration: none;
+            color: #3d3f42;
+            font-size: 13px;
+            border-bottom: 1px dotted #3d3f42;
+
+        }
+
+
+
+
+    }
+
+
+    .product-img {
+        display: flex;
+        justify-content: center;
+        padding-top: 2.3rem;
+        padding-bottom: 4rem;
+
+        a {
+
+            img {
+                height: 79px;
+                width: 194px;
+            }
+        }
 
 
     }
@@ -487,4 +546,572 @@ nav {
 
 
 
+
+
+
 }
+
+
+
+
+
+.new-products {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
+    background-color: white;
+    height: 163px;
+    width: 100%;
+    margin-top: 7rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+    padding-top: 1rem;
+
+
+    .maxi-chose {
+        display: flex;
+
+
+        .text-chose {
+            display: flex;
+            gap: 10px;
+            margin-left: 40px;
+            margin-top: 33px;
+
+            .text_red {
+                font-size: 25px;
+                color: red;
+            }
+
+
+            .text_blue {
+                font-size: 25px;
+                color: blue;
+            }
+
+
+
+        }
+
+
+
+
+        .magnet_img {
+            display: flex;
+            justify-content: right;
+            margin-left: 50rem;
+
+            img {
+
+                height: 80px;
+                width: 100px;
+
+            }
+
+        }
+
+
+
+
+
+
+
+    }
+
+
+
+    .buttom-chose {
+        margin-left: 30px;
+
+        a {
+
+            &:nth-child(1) {
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                background-color: #eaf0f8b2;
+                color: black;
+                border: none;
+
+            }
+
+
+
+            &:nth-child(2) {
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                background-color: #eaf0f8b2;
+                color: black;
+                border: none;
+
+            }
+
+
+            &:nth-child(3) {
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                background-color: #eaf0f8b2;
+                color: black;
+                border: none;
+
+            }
+
+
+
+            &:nth-child(4) {
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                background-color: #eaf0f8b2;
+                color: black;
+                border: none;
+
+            }
+
+
+            &:nth-child(5) {
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                background-color: #eaf0f8b2;
+                color: black;
+                border: none;
+
+            }
+
+
+
+            &:nth-child(6) {
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                background-color: #eaf0f8b2;
+                color: black;
+                border: none;
+
+
+            }
+
+
+
+
+            &:nth-child(7) {
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                background-color: #eaf0f8b2;
+                color: black;
+                border: none;
+
+            }
+
+
+
+
+
+
+
+        }
+
+    }
+
+
+
+
+
+}
+
+.new-products-down {
+    background-color: #ffa319;
+    height: 431px;
+    padding-left: 2rem;
+    border-bottom-left-radius: 2rem;
+    width: 380px;
+
+    ul {
+        padding-top: 4rem;
+
+        li {
+            color: white;
+        }
+    }
+
+
+    ._date {
+        width: 200px;
+        height: 88px;
+        text-align: center;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-color: #FED327;
+        margin-top: 3rem;
+
+    }
+
+
+
+}
+
+
+
+.phone-products {
+    background-color: #ffa319;
+    height: 431px;
+    padding-left: 7rem;
+    border-bottom-right-radius: 2rem;
+    padding-top: 60px;
+
+
+
+
+    .phone-products-background {
+        display: flex;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        height: 278px;
+        width: 561px;
+        background-color: white;
+
+
+        .phone-pro {
+            padding-left: 2rem;
+            padding-top: 2rem;
+
+            img {
+                height: 223px;
+                width: 210px;
+            }
+        }
+
+
+
+        .text-about-pro {
+            margin-left: 2rem;
+            margin-top: 2rem;
+
+            .text-about {
+                a {
+                    font-size: 20px;
+                    color: black;
+                    text-decoration: none;
+                }
+
+            }
+
+        }
+
+
+        .star-icon {
+            text-decoration: none;
+            cursor: pointer;
+
+
+            i {
+                cursor: pointer;
+                color: rgba(128, 128, 128, 0.308);
+            }
+
+            span {
+                font-size: 18px;
+
+            }
+
+            span {
+                font-size: 14px;
+            }
+
+        }
+
+
+
+        .product-price {
+
+            margin-top: 1rem;
+            font-size: 25px;
+            color: red;
+        }
+
+
+
+
+        .product-price-taksit {
+
+
+            i {
+                font-size: 15px;
+                color: red;
+                cursor: pointer;
+            }
+
+            a {
+
+
+
+                text-decoration: none;
+                color: #3d3f42;
+                font-size: 13px;
+                border-bottom: 1px dotted #3d3f42;
+
+            }
+
+
+
+
+        }
+
+
+        .buttom-chose {
+            margin-top: 1rem;
+
+            a {
+
+                &:nth-child(1) {
+                    // border-top-right-radius: 25px;
+                    // border-top-left-radius: 25px;
+                    // border-bottom-left-radius: 25px;
+                    // border-bottom-right-radius: 25px;
+                    background-color: red;
+                    color: white;
+                    border: none;
+
+                }
+
+                text-decoration: none;
+                color: #3d3f42;
+            }
+        }
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+}
+
+
+.brand-logo {
+    padding-top: 2rem;
+
+
+    .img-layer {
+
+        a {
+            img {
+                z-index: 1;
+                padding-top: 56px;
+                position: absolute;
+            }
+
+        }
+
+    }
+
+    .img-background {
+
+        a {
+            img {
+
+                height: 161px;
+                width: 161px;
+
+            }
+
+        }
+
+    }
+
+
+
+}
+
+
+
+.brand-logo-apple {
+
+    padding-top: 2rem;
+
+
+    .img-layer {
+
+        a {
+            img {
+                margin-left: 9px;
+                z-index: 1;
+                padding-top: 56px;
+                position: absolute;
+            }
+
+        }
+
+    }
+
+    .img-background {
+
+        a {
+            img {
+
+                height: 161px;
+                width: 161px;
+
+            }
+
+        }
+
+    }
+
+
+
+}
+
+
+.brand-logo-mi {
+
+
+    padding-top: 2rem;
+
+
+    .img-layer {
+
+        a {
+            img {
+                padding-left: 55px;
+                z-index: 1;
+                padding-top: 56px;
+                position: absolute;
+            }
+
+        }
+
+    }
+
+    .img-background {
+
+        a {
+            img {
+
+                height: 161px;
+                width: 161px;
+
+            }
+
+        }
+
+    }
+
+
+
+
+}
+
+
+
+.brand-logo-zimmer {
+
+
+
+    padding-top: 2rem;
+
+
+    .img-layer {
+
+        a {
+            img {
+                width: 158px;
+
+                z-index: 1;
+                padding-top: 61px;
+                position: absolute;
+            }
+
+        }
+
+    }
+
+    .img-background {
+
+        a {
+            img {
+
+                height: 161px;
+                width: 161px;
+
+            }
+
+        }
+
+    }
+
+
+
+}
+
+
+.brand-logo_more{
+
+
+    padding-top: 2rem;
+
+
+    .img-layer {
+
+        a {
+            text-decoration: none;
+            width: 158px;
+
+            z-index: 1;
+            padding-top: 67px;
+            position: absolute;
+            color: black;
+
+
+        }
+
+    }
+
+    .img-background {
+
+        a {
+            img {
+
+                height: 161px;
+                width: 161px;
+
+            }
+
+        }
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+

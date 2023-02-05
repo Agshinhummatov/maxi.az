@@ -8,6 +8,10 @@ nav .up-novbar-body .image-home a img {
   height: 35px;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 .row-body .catalog-right-icon .catalog-right {
   display: flex;
   background-color: black;
@@ -146,8 +150,8 @@ nav .up-novbar-body .image-home a img {
 
 .card-pro {
   width: 275px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   padding: 1rem;
-  background-color: aquamarine;
 }
 .card-pro .icon-products {
   display: flex;
@@ -220,9 +224,10 @@ nav .up-novbar-body .image-home a img {
 }
 .card-pro .text-about {
   padding-top: 20px;
+  padding-bottom: 5px;
 }
 .card-pro .text-about a {
-  color: white;
+  color: #3d3f42;
   text-decoration: none;
 }
 .card-pro .star-icon {
@@ -244,16 +249,316 @@ nav .up-novbar-body .image-home a img {
   padding-top: 25px;
 }
 .card-pro ._icon-basket {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   display: flex;
   justify-content: right;
   width: 50px;
   height: 50px;
   background-color: white;
   border-radius: 50%;
+  margin-left: 11rem;
 }
 .card-pro ._icon-basket a {
   color: red;
 }
 .card-pro ._icon-basket a i {
-  padding: 16px;
+  padding: 15px;
+  font-size: 20px;
+}
+.card-pro .product-price-taksit i {
+  font-size: 15px;
+  color: red;
+  cursor: pointer;
+}
+.card-pro .product-price-taksit a {
+  text-decoration: none;
+  color: #3d3f42;
+  font-size: 13px;
+  border-bottom: 1px dotted #3d3f42;
+}
+.card-pro .product-img {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.3rem;
+  padding-bottom: 4rem;
+}
+.card-pro .product-img a img {
+  height: 79px;
+  width: 194px;
+}
+
+.new-products {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  background-color: white;
+  height: 163px;
+  width: 100%;
+  margin-top: 7rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  padding-top: 1rem;
+}
+.new-products .maxi-chose {
+  display: flex;
+}
+.new-products .maxi-chose .text-chose {
+  display: flex;
+  gap: 10px;
+  margin-left: 40px;
+  margin-top: 33px;
+}
+.new-products .maxi-chose .text-chose .text_red {
+  font-size: 25px;
+  color: red;
+}
+.new-products .maxi-chose .text-chose .text_blue {
+  font-size: 25px;
+  color: blue;
+}
+.new-products .maxi-chose .magnet_img {
+  display: flex;
+  justify-content: right;
+  margin-left: 50rem;
+}
+.new-products .maxi-chose .magnet_img img {
+  height: 80px;
+  width: 100px;
+}
+.new-products .buttom-chose {
+  margin-left: 30px;
+}
+.new-products .buttom-chose a:nth-child(1) {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgba(234, 240, 248, 0.6980392157);
+  color: black;
+  border: none;
+}
+.new-products .buttom-chose a:nth-child(2) {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgba(234, 240, 248, 0.6980392157);
+  color: black;
+  border: none;
+}
+.new-products .buttom-chose a:nth-child(3) {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgba(234, 240, 248, 0.6980392157);
+  color: black;
+  border: none;
+}
+.new-products .buttom-chose a:nth-child(4) {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgba(234, 240, 248, 0.6980392157);
+  color: black;
+  border: none;
+}
+.new-products .buttom-chose a:nth-child(5) {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgba(234, 240, 248, 0.6980392157);
+  color: black;
+  border: none;
+}
+.new-products .buttom-chose a:nth-child(6) {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgba(234, 240, 248, 0.6980392157);
+  color: black;
+  border: none;
+}
+.new-products .buttom-chose a:nth-child(7) {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgba(234, 240, 248, 0.6980392157);
+  color: black;
+  border: none;
+}
+
+.new-products-down {
+  background-color: #ffa319;
+  height: 431px;
+  padding-left: 2rem;
+  border-bottom-left-radius: 2rem;
+  width: 380px;
+}
+.new-products-down ul {
+  padding-top: 4rem;
+}
+.new-products-down ul li {
+  color: white;
+}
+.new-products-down ._date {
+  width: 200px;
+  height: 88px;
+  text-align: center;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #FED327;
+  margin-top: 3rem;
+}
+
+.phone-products {
+  background-color: #ffa319;
+  height: 431px;
+  padding-left: 7rem;
+  border-bottom-right-radius: 2rem;
+  padding-top: 60px;
+}
+.phone-products .phone-products-background {
+  display: flex;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 278px;
+  width: 561px;
+  background-color: white;
+}
+.phone-products .phone-products-background .phone-pro {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.phone-products .phone-products-background .phone-pro img {
+  height: 223px;
+  width: 210px;
+}
+.phone-products .phone-products-background .text-about-pro {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.phone-products .phone-products-background .text-about-pro .text-about a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+.phone-products .phone-products-background .star-icon {
+  text-decoration: none;
+  cursor: pointer;
+}
+.phone-products .phone-products-background .star-icon i {
+  cursor: pointer;
+  color: rgba(128, 128, 128, 0.308);
+}
+.phone-products .phone-products-background .star-icon span {
+  font-size: 18px;
+}
+.phone-products .phone-products-background .star-icon span {
+  font-size: 14px;
+}
+.phone-products .phone-products-background .product-price {
+  margin-top: 1rem;
+  font-size: 25px;
+  color: red;
+}
+.phone-products .phone-products-background .product-price-taksit i {
+  font-size: 15px;
+  color: red;
+  cursor: pointer;
+}
+.phone-products .phone-products-background .product-price-taksit a {
+  text-decoration: none;
+  color: #3d3f42;
+  font-size: 13px;
+  border-bottom: 1px dotted #3d3f42;
+}
+.phone-products .phone-products-background .buttom-chose {
+  margin-top: 1rem;
+}
+.phone-products .phone-products-background .buttom-chose a {
+  text-decoration: none;
+  color: #3d3f42;
+}
+.phone-products .phone-products-background .buttom-chose a:nth-child(1) {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.brand-logo {
+  padding-top: 2rem;
+}
+.brand-logo .img-layer a img {
+  z-index: 1;
+  padding-top: 56px;
+  position: absolute;
+}
+.brand-logo .img-background a img {
+  height: 161px;
+  width: 161px;
+}
+
+.brand-logo-apple {
+  padding-top: 2rem;
+}
+.brand-logo-apple .img-layer a img {
+  margin-left: 9px;
+  z-index: 1;
+  padding-top: 56px;
+  position: absolute;
+}
+.brand-logo-apple .img-background a img {
+  height: 161px;
+  width: 161px;
+}
+
+.brand-logo-mi {
+  padding-top: 2rem;
+}
+.brand-logo-mi .img-layer a img {
+  padding-left: 55px;
+  z-index: 1;
+  padding-top: 56px;
+  position: absolute;
+}
+.brand-logo-mi .img-background a img {
+  height: 161px;
+  width: 161px;
+}
+
+.brand-logo-zimmer {
+  padding-top: 2rem;
+}
+.brand-logo-zimmer .img-layer a img {
+  width: 158px;
+  z-index: 1;
+  padding-top: 61px;
+  position: absolute;
+}
+.brand-logo-zimmer .img-background a img {
+  height: 161px;
+  width: 161px;
+}
+
+.brand-logo_more {
+  padding-top: 2rem;
+}
+.brand-logo_more .img-layer a {
+  text-decoration: none;
+  width: 158px;
+  z-index: 1;
+  padding-top: 67px;
+  position: absolute;
+  color: black;
+}
+.brand-logo_more .img-background a img {
+  height: 161px;
+  width: 161px;
 }/*# sourceMappingURL=style.css.map */
